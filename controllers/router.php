@@ -25,5 +25,5 @@ if (isset($_GET["section"])) {
             include("views/error/404.php");
     }
 } else {
-    include("controller/accueilController.php");
+    include("controllers/accueilController.php");
 }
