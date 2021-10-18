@@ -10,8 +10,6 @@
 <div class="apresmenu">
 
 </div>
-
-
 <!--                              FLECHE ANIMEE -->
 
 <a href="#apropos" title="Vous voulez savoir comment cela marche? Cliquez-ici !">
