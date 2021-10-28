@@ -401,7 +401,7 @@ Extra extra large	xxl	≥1400px */
         margin-left: 5px;
         font-size: 8px;
         text-align: justify;
-        margin-right: 30px;
+        margin-right: 17px;
         color: rgb(240, 233, 233);
         text-decoration: none;
         margin-top: 148px;
@@ -413,12 +413,15 @@ Extra extra large	xxl	≥1400px */
     }
 
     .h1mimi {
+        padding-right:-30px;
     font-size: 50px;
+    
             } 
 
     .h2mimi {
      font-size:9px;
-               
+     padding-right:65px;
+  
                 
             }
 
@@ -446,6 +449,8 @@ Extra extra large	xxl	≥1400px */
         /* left: 14px; */
         position: absolute;
         margin-top: 24px;
+        margin-left:-10px;
+        padding-left:20px;
        /*  margin-left: 11px; */
     }
     
@@ -671,7 +676,7 @@ Extra extra large	xxl	≥1400px */
          /* padding-left:100px; */
         color:white;
         font-size:25px;
-        padding-left: 5px;
+        padding-right: 35px;
         
     }
     
@@ -681,7 +686,7 @@ Extra extra large	xxl	≥1400px */
     align-content:center;
     }
      .aproposImg {
-         padding-right:7px;
+         padding-right:10px;
         /* width:15%; */
         width:400px;
         height:400px;
