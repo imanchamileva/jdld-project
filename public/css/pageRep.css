@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "sign";
-  src: url(../fonts/SignPainter\ HouseScript\ Regular.ttf);
+  font-family: "singP";
+  src: url(../../public/fonts/SignPainter.ttf);
 }
 @font-face {
   font-family: "work";
@@ -41,9 +41,16 @@
   color: white;
   text-align: center;
   /* border: 3px blue solid; */
-  font-family: "Sign";
-  font-size: 4rem;
+  font-family: "singP";
   box-sizing: content-box;
+  font-size: 4rem;
+}
+.replique{
+  text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  font-family: "singP";
 }
 #audioHastasab{
   margin-bottom: 70px;
@@ -87,12 +94,15 @@ figcaption {
 #coeur{
   /* border: 2px solid red; */
   align-content: flex-end;
-  margin-left: 1280px;
+  margin-left: 1400px;
+}
+#coeur, .coeursab:active {
+  color: red;
 }
 #bulle{
   /* border: 2px solid rgb(25, 0, 255); */
   align-content: flex-end;
-  margin-left: 1050px;
+  margin-left: 1220px;
 }
 #coeur, #bulle{
   margin-top: 80px;
@@ -100,6 +110,8 @@ figcaption {
 }
 #trad{
   color: white;
+  font-style: italic;
+  font-family: "workLg";
 }
 /* .col,.row {
     background-color:#0C0B0B;
@@ -123,7 +135,6 @@ figcaption {
     text-align: center;
     border: rgb(224, 101, 64) 1px solid;
 }
-
 #arnoldsab{
     color: white;
     font-size: 1rem;
@@ -132,7 +143,6 @@ figcaption {
     padding: 0;
     font-family: "workLg";
 }
-
 #audioHastasab{
     border: 1px solid rgb(224, 136, 64);
     padding-left: 130px;
@@ -147,7 +157,6 @@ figcaption{
     color: white;
     
 }
-
 /* ### Wapper Partie Real | Titre Film | Bulle Com | Like | ####*/
 /* James Cameron Terminator the Judgment day */
 /* .realTitreTerminatorsab{
@@ -175,7 +184,6 @@ figcaption{
 /* .coeursab{
     display: flex;
     border: 1px solid rgb(3, 92, 83);
-
     margin-left: 1370px;
     padding-top: 50px;
     margin-right: 10px;
@@ -183,21 +191,30 @@ figcaption{
    
    
 }
-
 .bullesab{
     border: 1px solid turquoise;
     margin-right: 195px;
     padding-top: 51px;
 } */
-
-#hastasab {
-  color: white;
-  font-family: "sign";
-  font-size: 3rem;
+.sidebariconssab {
+    /* background-color:white; */
+    color:white;
+    display:flex;
+    flex-direction: row;
+    align-content:flex-start;
+    /* margin-left: 1280px; */
+    /* margin-top: 80px; */
+    padding-left:35px;
+    margin-top:-220px;
+    padding-left:105px;
+    /* width: 42px;
+    height: auto; */
+    /* border: 2px solid red; */
 }
-.replique{
-  text-align: center;
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: center;
+.sidebariconssab a {
+  margin:0;
+  padding:0;
+}
+.bi{ 
+  font-size: 32px;
 }

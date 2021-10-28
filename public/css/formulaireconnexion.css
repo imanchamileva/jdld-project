@@ -126,22 +126,21 @@
     border-color: #959596;
 }
 .boxConnexion button[type = "submit"]{
-    border:0;
-    /* background: #2196f3; */
-    display: block;
-    margin:20px auto;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 24px;
-    overflow: hidden;
-    border:2px  #a9adad;
-    padding: 14px 60px;
-    outline: none;
-    color:#696a6b;
-    border-radius: 5px;
-    transition: 0.2s;
-    /* cursor: pointer;  */
+  border:0;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border:2px  #a9adad;
+  padding: 14px 20px;
+  outline: none;
+  color: #696a6b;
+  border-radius: 15px;
+  transition: 0.25s;
+  /* cursor: pointer; */
+  font-size: 24px;
+  overflow: hidden;
 }
  .boxConnexion button::before {
     position: absolute;
@@ -298,23 +297,5 @@
     background: transparent;
     box-shadow: 0 0 20px 10px hsla(0, 0%, 55%, 0.5);
   }
-/* .copy{
-    height:50px;
-    padding:0;
-    margin:0;
-    font-size: 15px;
-    color: rgb(240, 233, 233);
-    text-align: center;
-    margin-bottom: 7px;
-    margin-top: 18px;
-} */
-/* footer {
-    padding:0;
-    margin:0;
-    clear:both;
-    position:relative;
-    height:120px;
-    background-color: black;
-    width: 100%;
-    
-} */
+
+

@@ -31,7 +31,6 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
                 <figure id="audioHastasab" class="col-5">
                 <figcaption>' . $rep['acteur_nom'] . " " . $rep['acteur_prenom'] . '</figcaption><audio
                     controls
-                    loop
                     controls
                     type="audio/wav"
                     src="public/audio/' . $rep['audio'] . '"
@@ -46,11 +45,16 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
                 <div class="col-2">
                     <img id="coeur" style="width: 42px; height:auto;" class="coeursab"  src="public/images/boutons/boutonCoeurBlanc.png" alt="like">
                 </div>
-                <div class"col-2">
+                <div class="col-2">
                     <img id="bulle" style="width: 42px; height:auto;" class="bullesab "  src="public/images/boutons/bulleCommentaire.png" alt="commentaire">
                 </div>  
             </div>  
-            </div>';
+            <div class="sidebariconssab ">
+                <a href="https://www.facebook.com/"> <i class="bi bi-facebook" alt="facebook" style="width: 42px; height:auto; color: rgb(253, 253, 252); "></i></a>&nbsp;
+                <a href="https://www.instagram.com/"> <i class="bi bi-instagram" alt="instagram" style=" width: 42px; height:auto; color: rgb(253, 253, 252); "></i></a>&nbsp;
+                <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin" alt="linkedin" style=" width: 42px; height:auto; color: rgb(253, 253, 252); "></i></a>
+            </div>
+        </div>';
         $i++;
     // }
     }

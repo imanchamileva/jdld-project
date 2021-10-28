@@ -118,9 +118,6 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 </div>
 
 
-
-
-
 <!--                              SOURIS LUMIERE -->
 
 
@@ -128,36 +125,19 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 </div>
 
 
-
-
-
 <div class="apresmenu">
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
-<div class="footer11">
+<!-- <div class="footer11"> -->
     <footer class="footer">
-        <div class="icons">
+        <!-- <div class="icons">
             <a href="https://www.facebook.com/"> <i class="bi bi-facebook" alt="facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
             <a href="https://www.instagram.com/"> <i class="bi bi-instagram" alt="instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
-            <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin" alt="linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
+            <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin" alt="linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>-->
             <a href="#hautDePage"> <i class="bi bi-chevron-bar-up" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
-        </div>
+        </div> 
 
         <p class="copy"> &copy; 2021 JDLD</p>
     </footer>
 
-</div>
+<!-- </div> -->

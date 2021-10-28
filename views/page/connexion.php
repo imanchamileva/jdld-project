@@ -32,7 +32,7 @@
                 <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
             <div class="Account">
-                <h6 class="inscrivezvous">Vous n'avez pas de compte ? <br><a href="?</section=creer"><span id="inscrivezvous2">Inscrivez-vous!</span></h6></a>
+                <h6 class="inscrivezvous">Vous n'avez pas de compte ? <br><a href="?section=inscription"><span id="inscrivezvous2">Inscrivez-vous!</span></h6></a>
             </div>
         </form>
     </div>
